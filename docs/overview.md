@@ -4,6 +4,8 @@
 
 OTO v2 is a compact whiteboard-cleaning hardware project and FDM mechanism testbed.
 
+It builds on [OTO](https://github.com/Keem-tt/OTO-Whiteboard-Cleaner) with a simpler public direction: faster, cheaper, and sleeker.
+
 The project is being used to turn a clean concept into physical iterations that can be printed, assembled, serviced, observed, and changed.
 
 ## What It Is Testing
