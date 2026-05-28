@@ -1,21 +1,17 @@
 # Development Log
 
-Use this log to capture prototype changes while the details are still fresh.
+This page will track public prototype history once entries are ready.
 
-## Entry Template
+The log should focus on design changes, prototype evidence, what was learned, and the next practical action. It should not be a private task list or a polished announcement feed.
 
-### YYYY-MM-DD
+## Entry Format
 
-- Prototype/version:
-- What changed:
-- What was learned:
+### YYYY-MM-DD - Prototype/version
+
+- Changed:
+- Learned:
 - Next action:
 
-## Entries
+## Public Entries
 
-### TBD
-
-- Prototype/version:
-- What changed:
-- What was learned:
-- Next action:
+No public entries yet.
