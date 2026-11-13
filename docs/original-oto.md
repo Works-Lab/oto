@@ -1,30 +1,24 @@
-# Original OTO Reference
+# The original OTO
 
-Original repo: [Keem-tt/OTO-Whiteboard-Cleaner](https://github.com/Keem-tt/OTO-Whiteboard-Cleaner)
+OTO began as a senior capstone project: an automated whiteboard cleaner. See [the original repo](https://github.com/Keem-tt/OTO-Whiteboard-Cleaner).
 
-The first OTO was a senior capstone automated whiteboard cleaner. It is useful context for OTO v2 because it already captured a working direction, real printed parts, embedded control code, and a formal project report.
+## What’s in it
 
-## What The Original Repo Contains
+- STL files for the printed parts: rack segments, pinion, pod, cleaning arm, mounts, covers, tabs, and rail parts.
+- Arduino code for stepper motion, calibration, limit-switch travel bounds, and button-driven clean modes.
+- The capstone report: the problem, the requirements, the tradeoffs, the cost targets, the modular rack, and the iteration history.
+- The lessons: gear alignment, weight balance, overtravel, and mechanism integration.
+- Media from the prototype.
 
-- STL files for printed parts such as rack segments, pinion, pod, cleaning arm, mounts, covers, tabs, and rail-related parts.
-- Arduino code for stepper-driven motion, calibration, limit-switch travel bounds, and button-driven clean modes.
-- A capstone report covering the original problem statement, requirements, tradeoffs, cost targets, modular rack direction, and iteration history.
-- Media from the original prototype.
+## How it worked
 
-## Original Architecture
+A stepper motor, on a TMC2209 driver, drove the rack-and-pinion rail. Mechanical limit switches set the travel. Push buttons started each clean mode. The parts were printed in PLA+.
 
-The original OTO direction used a rack-and-pinion rail, a stepper motor, a TMC2209 driver, mechanical limit switches, and a push-button interface.
+## What v2 asks
 
-The report documents a working prototype area, prototype cost, modular expansion concept, printed PLA+ parts, and lessons from gear alignment, weight balance, overtravel, and mechanism integration.
-
-## What Carries Into OTO v2
-
-OTO v2 starts from those lessons, but it should not copy the first architecture blindly.
-
-Useful questions for v2:
-
-- Which parts of the rack-and-pinion approach are still worth keeping?
-- Which printed parts became too bulky, too slow to print, or too hard to service?
+- Which parts of the rack-and-pinion approach are worth keeping?
+- Which parts should be printed, and which should be off-the-shelf?
+- Which printed parts were too bulky, too slow to print, or too hard to service?
 - How should pad replacement and cleaning pressure be handled earlier in the design?
-- Can the same core idea become faster, cheaper, and sleeker without losing repairability?
-- What needs to be measured again instead of assumed from the capstone prototype?
+- Can it be faster, cheaper, and sleeker without losing repairability?
+- What needs to be measured again?

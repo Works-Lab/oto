@@ -1,37 +1,31 @@
 # OTO v2
 
-OTO v2 is a compact whiteboard-cleaning hardware project and FDM mechanism testbed.
+**A compact whiteboard cleaner, and a testbed for printed mechanisms.**
 
-Improving on [OTO](https://github.com/Keem-tt/OTO-Whiteboard-Cleaner), a senior capstone automated whiteboard cleaner built around printed parts, Arduino control, and rack-and-pinion motion, OTO v2 is being developed with three things in mind: faster, cheaper, and sleeker.
+OTO v2 builds on [OTO](https://github.com/Keem-tt/OTO-Whiteboard-Cleaner), a senior capstone project made with printed parts, Arduino control, and rack-and-pinion motion. The goal for v2: faster, cheaper, and sleeker.
 
-It is being used to explore how far printed parts can go when the mechanism, material, service behavior, and manufacturing method are designed together from the start.
+*Paused*
 
-## Starting Point
+Design notes only. No hardware or firmware files are published yet.
 
-The original OTO repo includes STL files, Arduino motor-control code, a capstone report, and media from the first working direction.
+## Where it starts
 
-OTO v2 uses that work as the starting point, not as a fixed architecture. The goal is to keep the useful lessons from the original build while revisiting the mechanism, printed part strategy, pad service, packaging, and cost from a cleaner baseline.
+The original repo holds the printed parts, the motor code, the capstone report, and media from the first build. OTO v2 keeps what that build taught and rethinks the rest: the mechanism, the printed parts, pad service, packaging, and cost.
 
-See [docs/original-oto.md](docs/original-oto.md) for the short reference summary.
+Read about [the original OTO](docs/original-oto.md).
 
-## Focus
+## What it explores
 
-- printed mechanism design
-- rail and chassis geometry
-- pad interface behavior
-- fastener boss design
-- serviceability
-- FDM prototype constraints
-- measured behavior from physical iterations
+- Printed mechanism design
+- Rail and chassis geometry
+- Pad interface
+- Fastener bosses
+- Serviceability
+- FDM constraints
+- Measured behavior
 
-## Status
+## Open source, closed to contributions
 
-Paused.
+Use it and change it under the licenses below. Pull requests are off.
 
-The repo will start with documentation and design notes, then expand as files are cleaned up for public release.
-
-## Why this exists
-
-Some projects are easiest to understand only after they move through real hardware.
-
-OTO v2 is a place to document that process: the rough prototypes, the decisions, the failures, and the design changes that make the next version better.
+Software is licensed under GPL-3.0-or-later, hardware under CERN-OHL-S-2.0, and documentation under CC BY-SA 4.0. See [License](LICENSE_NOTES.md).
