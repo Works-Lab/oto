@@ -8,7 +8,7 @@ OTO v2 builds on [OTO](https://github.com/Keem-tt/OTO-Whiteboard-Cleaner), a sen
 
 Design notes only. No hardware or firmware files are published yet.
 
-## Where it starts
+## The original OTO
 
 <img src="assets/original-oto-exploded.png" alt="An exploded view of the original OTO carriage." width="100%">
 
@@ -18,13 +18,20 @@ The original repo holds the printed parts, the motor code, the capstone report, 
 
 ## What it explores
 
-- Printed mechanism design
-- Rail and chassis geometry
-- Pad interface
-- Fastener bosses
-- Serviceability
-- FDM constraints
-- Measured behavior
+**Printed rails and chassis**\
+How they behave in real motion.
+
+**Pad interface**\
+How pads attach, wear, and get replaced.
+
+**Fastener bosses**\
+How they hold up through assembly and service.
+
+**Printed or bought**\
+Where printed parts are enough, and where off-the-shelf parts make more sense.
+
+**FDM constraints**\
+They shape the design from the start.
 
 ## Read more
 

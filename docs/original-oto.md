@@ -8,7 +8,7 @@ The original OTO mid-sweep, and a render of its carriage. Neither picture is OTO
 
 ## How it moved
 
-A carriage rides a rail along the top of the board. A stepper motor turns a printed pinion through a short belt, and the pinion walks along a printed rack. The rack comes in 151 mm segments, so a wider board takes more segments.
+A carriage rides a rail along the top of the board. A stepper motor turns a printed pinion through a short belt, and the pinion walks along a printed rack. The rack comes in 151 mm segments, so a wider board takes more segments. The printed parts use PLA+.
 
 The carriage holds a foam and felt pad against the board. A limit switch sits at each end of the rail.
 
@@ -20,13 +20,13 @@ The original carriage, exploded.
 
 An Arduino Uno runs the logic, and a TMC2209 driver runs the motor. A 3-cell LiPo battery powers it, with no cord to the wall.
 
-At power-on, OTO runs to each end of the rail to find its travel. Press the button and it sweeps the board end to end ten times, then parks at the left end. Hold the button for two seconds and it finds both ends again.
+At power-on, OTO runs to each end of the rail to find its travel. Press the button and it runs ten back-and-forth cycles, then returns to the left end. Hold the button for two seconds and it finds both ends again.
 
-## What it measured
+## What the capstone report measured
 
 - Ten sweeps across a 1.5 ft by 0.5 ft section in under 20 seconds.
-- Less than 5% of the ink left after a cycle.
-- No wear on the limit switches after more than 50 cycles.
+- Less than 5% residual ink in a 70 mm × 25 mm patch test.
+- No wear was observed on the limit switches after more than 50 cycles.
 
 ## What it taught
 
