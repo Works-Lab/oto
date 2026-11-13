@@ -1,5 +1,11 @@
-# License Notes
+# License
 
-Licensing is pending owner review before reusable CAD, hardware, firmware, or software files are published.
+Each kind of material in this repository has its own license.
 
-Software, hardware design files, documentation, photos, and diagrams may need different licenses. Do not add a final license without reviewing what will actually be released and how it should be reused.
+| Material | License | File |
+| --- | --- | --- |
+| Firmware and software | GPL-3.0-or-later | [LICENSE](LICENSE) |
+| Hardware designs and CAD | CERN-OHL-S-2.0 | [LICENSE-HARDWARE](LICENSE-HARDWARE) |
+| Documentation, photos, and diagrams | CC BY-SA 4.0 | [LICENSE-DOCS](LICENSE-DOCS) |
+
+Copyright 2026 Works Lab.
