@@ -10,6 +10,10 @@ Design notes only. No hardware or firmware files are published yet.
 
 ## Where it starts
 
+<img src="assets/original-oto-exploded.png" alt="An exploded view of the original OTO carriage." width="100%">
+
+The carriage from the original OTO, exploded.
+
 The original repo holds the printed parts, the motor code, the capstone report, and media from the first build. OTO v2 keeps what that build taught and rethinks the rest: the mechanism, the printed parts, pad service, packaging, and cost.
 
 Read about [the original OTO](docs/original-oto.md).
