@@ -26,7 +26,7 @@ See [docs/original-oto.md](docs/original-oto.md) for the short reference summary
 
 ## Status
 
-Early prototype / active development.
+Paused.
 
 The repo will start with documentation and design notes, then expand as files are cleaned up for public release.
 
